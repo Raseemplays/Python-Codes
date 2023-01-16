@@ -1,0 +1,21 @@
+print("Welcome to this short Survey!")
+while True:
+  question_one=str(input("What is your name?:"))
+  print("Nice!")
+  question_two=str(input("For the first question we would like to know if you are: A Male, B Female, C Rather Not Say, D Other. Please enter the letter for your answer:"))
+  if question_two in ('A, B, C, D') :
+    print("Thanks for answering!")
+  question_three=int(input("How old are you?:"))
+  print("Cool")
+  question_four=str(input("Where do you work at?:"))
+  question_five=str(input("Do you like your job? Would you change your job if you found something better?:"))
+  print("Nice Answer!")
+  question_six=str(input("What has been your biggest achievment growing up this year?:"))
+  print("Good, Thanks for answering")
+  question_seven=int(input("What would you rate this survey from 1-10?:"))
+  if question_seven in (1,2,3,4,5,6,7,8,9,10):
+    print("Thanks for answering!")
+    print("You are at the end of this survey")
+    print("Bye!")
+  break
+  
